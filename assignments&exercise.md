@@ -25,4 +25,14 @@ class Tester {
 
 
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168098599-7c5b1dc1-8dd3-4290-b5b5-fa8c6795f506.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+		// Implement your code here 
+				float f=50f;
+		System.out.println(((f-32)/9)*5 );
+	}
+}
+```
 
