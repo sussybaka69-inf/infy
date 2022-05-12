@@ -11,4 +11,18 @@ class Tester {
 
 ```
 
+![Capture](https://user-images.githubusercontent.com/105406807/168097613-1b1ad2bf-4027-4c0f-8ea7-c62155d20621.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+		// Implement your code here 
+		float pi=3.14f;
+		int radius=10;	
+		System.out.println( pi*radius*radius);
+		
+	}
+}
+
+
+```
 
