@@ -35,4 +35,25 @@ class Tester {
 	}
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
+```java
+class Tester{
+
+    public static String removeWhiteSpaces(String str){
+ 	    	String d="";
+	        for(int i=0;i<str.length();i++){
+	            if(str.charAt(i)!=' ') {
+	            	d+=str.charAt(i);
+	            }
+	        }
+	        return d;
+    }
+	
+	public static void main(String args[]){
+		String str = "Hello   How are you   ";
+		str = removeWhiteSpaces(str);
+		System.out.println(str);
+	}
+}
+```
 
