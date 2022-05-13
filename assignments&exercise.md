@@ -56,4 +56,26 @@ class Tester{
 	}
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168270880-1e51ccbe-133e-4674-85f9-873ec5a78ad6.PNG)
+```java
+class Tester {
+    
+    public static int calculateSumOfEvenNumbers(int[] numbers){
+        //Implement your code here and change the return value accordingly
+        	int d=0;
+	    	for(int i:numbers) {
+	    		if(i%2==0) {
+	    			d+=i;
+	    			
+	    		}
+	    	}
+	        return d;
+	    }
+    
+	public static void main(String[] args) {
+		int[] numbers = {68,79,86,99,23,2,41,100};
+		System.out.println("Sum of even numbers: " +calculateSumOfEvenNumbers(numbers));
+	}
+}
+```
 
