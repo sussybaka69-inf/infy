@@ -79,3 +79,24 @@ class Tester {
 }
 ```
 
+![Capture](https://user-images.githubusercontent.com/105406807/168306248-c46fc0e7-c56a-46a8-a42d-5e5717d57b70.PNG)
+```java
+class Calculator {
+
+	// Implement your code here
+	public double findAverage(int number1,int number2,int number3){
+	    double x=(number1+number2+number3)/(double)3;
+	    return (Math.round(x*100.0)/100.0);
+	}
+}
+
+class Tester {
+
+	public static void main(String args[]) {
+		Calculator calculator = new Calculator();
+		// Invoke the method findAverage of the Calculator class and display the average
+		Calculator.findAverage(number1,number3,number2);
+	}
+}
+```
+
