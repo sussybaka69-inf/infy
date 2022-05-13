@@ -99,4 +99,32 @@ class Tester {
 	}
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168332641-d65bb10d-fe93-4d46-9d7d-01c9af4b9375.PNG)
+```java
+class Tester{
+    
+    public static String moveSpecialCharacters(String str){
+		//Implement your code here and change the return value accordingly
+  		String alpha="";
+			String sy="";
+			for(int i=0;i<str.length();i++){
+			        if (Character.isAlphabetic(str.charAt(i))) {
+			            alpha+=str.charAt(i);
+			        }
+			        else{
+			            		            sy+=str.charAt(i);
 
+			        }
+			            
+
+			}
+	        return alpha+=sy;
+    }
+	
+	public static void main(String args[]){
+	    String str = "He@#$llo!*&";
+	    System.out.println(moveSpecialCharacters(str));
+	}
+	
+}
+```
