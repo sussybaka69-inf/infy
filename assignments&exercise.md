@@ -350,4 +350,33 @@ class Tester {
 	    
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168443313-79be6adc-42fe-4438-ac23-1c32decb18e1.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+    	int i=46763,g=i,rev=0,t;
+	    	while(g>0) {
+	    		t=g%10;
+	    		rev=rev*10+t;
+	    		g=g/10;
+	    		
+	    		
+	    	}
+	    	if(i==rev) {
+	    	System.out.println(i+" is a Palindrome");
+	    	}
+	    	else {
+		    	System.out.println(i+"is not a Palindrome");
+
+	    	}
+	    	
+	    		
+	    
+	    	
+	    	}
+	    
+	    
+}
+
+```
 
