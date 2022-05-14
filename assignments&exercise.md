@@ -127,9 +127,9 @@ class Tester {
 		// Invoke the method findAverage of the Calculator class and display the average
 		Calculator.findAverage(number1,number3,number2);
 	}
-}
+}![Capture](https://user-images.githubusercontent.com/105406807/168430017-c9563213-37b4-4b35-a87c-dcf1e12ec70b.PNG)
+
 ```
-![Capture](https://user-images.githubusercontent.com/105406807/168332641-d65bb10d-fe93-4d46-9d7d-01c9af4b9375.PNG)
 ```java
 class Tester{
     
@@ -176,4 +176,26 @@ class Tester {
 	}
 }
 ````
+![Capture](https://user-images.githubusercontent.com/105406807/168332641-d65bb10d-fe93-4d46-9d7d-01c9af4b9375.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+		int a=1,b=4,c=6,d;
+		d=b*b-4*a*c;
+		if(d>0) {
+			System.out.println(((-b-d)/2*a)+"");
+			System.out.println(((-b+d)/2*a)+"");
+			
 
+		}
+		else if(d<0){
+			
+			System.out.println("The equation has no real root");
+		}
+		else {
+			System.out.println((-b-d)/2*a);	
+
+	}
+	}
+}
+```
