@@ -293,4 +293,33 @@ class Tester {
 	}
 ```
 
+![Capture](https://user-images.githubusercontent.com/105406807/168442733-d7185425-5460-492f-9f5c-812e5cbd80cb.PNG)
+```java
+package tt;
+class gf {
+	    
+	    public static void main(String args[]){
+	  int d=31,m=7,y=11;
+	  y+=2000;
+	  if(d==31) {
+		  if(m==12) {
+			  y+=1;
+			  m=1;
+			  d=1;
+		  }
+		  else {
+			  m+=1;
+			  d=1;
+		  }
+	  }
+	  else {
+		  d+=1;
+	  }
+	   
+	  System.out.println(d+"-"+m+"-"+y);
+	    
+	    }
+	  }
+	    
+```
 
