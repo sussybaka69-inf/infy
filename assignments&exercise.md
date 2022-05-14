@@ -176,7 +176,10 @@ class Tester {
 	}
 }
 ````
-![Capture](https://user-images.githubusercontent.com/105406807/168332641-d65bb10d-fe93-4d46-9d7d-01c9af4b9375.PNG)
+![Capture](https://user-images.githubusercontent.com/105406807/168430076-cf556511-c17a-4e6d-bc12-ebd9d25d83ff.PNG)
+
+
+
 ```java
 class Tester {
 	public static void main(String[] args) {
