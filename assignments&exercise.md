@@ -35,6 +35,36 @@ class Tester {
 	}
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168419068-e8fff37d-949e-469c-8478-faa9470f6173.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+		// Implement your code here 
+		int num1=3,num2=4,num3=1;
+if(num1>num2) {
+	if(num1>num3) {
+		System.out.println(num1);
+	}
+	else {
+		System.out.println(num3);
+	}
+}
+else {
+	if(num2>num3) {
+		System.out.println(num2);
+	}
+	else {
+		System.out.println(num3);
+	}
+}
+
+	}
+}
+
+
+```
+
+
 ![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
 ```java
 class Tester{
