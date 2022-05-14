@@ -322,4 +322,32 @@ class gf {
 	  }
 	    
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168442922-f95712dd-9ee8-4f18-ae57-efd5ca302c63.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+	    	int i=6;
+	    	if(i%3==0||i%5==0) {
+	    		if(i%3==0&&i%5==0) {
+	    			System.out.println("zoom");
+	    		}
+	    		else if(i%3==0){
+	    			System.out.println("zip");    			
+	    		}
+	    		else {
+	    			System.out.println("zap");    			
+
+	    		}
+	    	}
+	    	else {
+    			System.out.println("invalid");    			
+
+	    	}
+	    	
+	    	
+	    	}
+	    
+	    
+}
+```
 
