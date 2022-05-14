@@ -228,4 +228,69 @@ System.out.println(fb);
 	}
 }
 
+
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168436483-26b9638b-06a0-4900-a5ff-7ddf30040aab.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+	int acc_no=1001,sal=40000,accb=250000,c=0,cb=0,count=0,loanexp=300000,emiexp=30;
+	String lt="Car";
+	while(acc_no>0) {
+		acc_no=acc_no/10;
+		count++;
+		if(acc_no==1) {
+			cb=1;
+		}
+		
+	}
+	if(count==4) {
+		c=1;
+	}
+	if(c==1&&cb==1) {
+		switch (lt) {
+		case "Car":
+			if(loanexp<=500000&&emiexp<=36) {
+				System.out.println("eligible loan amount= "+500000+"\nnumber of EMIs="+36);
+				break;
+			}
+			else {
+				System.out.println("no can do");
+				break;
+			}
+			
+		case "House":
+			if(loanexp<=6000000&&emiexp<=60) {
+				System.out.println("eligible loan amount= "+6000000+"\nnumber of EMIs="+60);
+				break;
+			}
+			else {
+				System.out.println("no can do");
+				break;
+			}
+		case "Business":
+			if(loanexp<=7500000&&emiexp<=84) {
+				System.out.println("eligible loan amount= "+7500000+"\nnumber of EMIs="+84);
+				break;
+			}
+			else {
+				System.out.println("no can do");
+				break;
+
+			}
+				
+			
+			
+		}
+	
+	}
+	else {
+		System.out.println("validation failed");
+
+	}
+	
+	}
+	}
+```
+
+
