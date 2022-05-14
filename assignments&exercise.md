@@ -379,4 +379,35 @@ class Tester {
 }
 
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168443980-c553d2f2-e376-4a47-b9aa-71600fceae83.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+	    	int i=45,g=i,t,y=1000;
+	    	int x=i;	
+	    	while(g>0) {
+	    		t=g%10;
+	    		i*=t;
+	    		g=g/10;
+	    		    		
+	    	}
+	    	
+	    if(i==y) {
+	    	System.out.println(x+" is a seed of "+y);
+
+	    }
+	    else {
+	    	System.out.println(x+" is not a seed of "+y);
+
+	    }
+	    		
+	    
+	    	
+	    	}
+	    
+}
+```
+
+
+
 
