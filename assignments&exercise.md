@@ -202,3 +202,30 @@ class Tester {
 	}
 }
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168430638-7705b86b-7932-414b-b104-27dc64100553.PNG)
+```java
+class Tester {
+	public static void main(String[] args) {
+	int q=2,d=10,fb;
+		char food='V';
+		if (food=='N') {
+			fb=q*15;
+		}
+		else {
+			fb=q*12;
+
+		}
+		if (d>3&&d<6) {
+			fb+=d;
+		}
+		else if(d>6) {
+			
+			fb+=((d-6)*2)+3;
+			
+
+		}
+System.out.println(fb);
+	}
+}
+
+```
