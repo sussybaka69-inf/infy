@@ -409,6 +409,38 @@ class Tester {
 	    
 }
 ```
+<img width="739" alt="Capture" src="https://user-images.githubusercontent.com/105406807/168465269-581e2f76-ef7b-495f-8778-14fbcaecb1ef.PNG">
+
+```java
+class Calculator {
+public int num;
+public int sumOfDigits( ){
+    int sum=0;
+    int temp;
+    while(num>0){
+        temp=num%10;
+        sum+=temp;
+        num=num/10;
+    }
+    return sum;
+}
+	// Implement your code here
+
+}
+
+class Tester {
+
+	public static void main(String args[]) {
+
+		Calculator calculator = new Calculator();
+		calculator.num=123;
+		// Assign a value to the member variable num of Calculator class
+       System.out.println(calculator.sumOfDigits());
+		// Invoke the method sumOfDigits of Calculator class and display the output
+
+	}
+}
+```
 
 
 
