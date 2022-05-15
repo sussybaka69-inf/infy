@@ -127,9 +127,11 @@ class Tester {
 		// Invoke the method findAverage of the Calculator class and display the average
 		Calculator.findAverage(number1,number3,number2);
 	}
-}![Capture](https://user-images.githubusercontent.com/105406807/168430017-c9563213-37b4-4b35-a87c-dcf1e12ec70b.PNG)
+}
 
 ```
+![Capture](https://user-images.githubusercontent.com/105406807/168430017-c9563213-37b4-4b35-a87c-dcf1e12ec70b.PNG)
+
 ```java
 class Tester{
     
