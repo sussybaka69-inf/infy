@@ -983,5 +983,89 @@ class Tester {
 
 
 ```
+<img width="549" alt="Capture" src="https://user-images.githubusercontent.com/105406807/168886626-8bfeefac-886e-4221-ad9c-9ed95a78de69.PNG">
+<img width="245" alt="Capture" src="https://user-images.githubusercontent.com/105406807/168886702-073e677d-0a4c-4931-ace5-1b7166120f36.PNG">
+
+```java
+class Bill{
+    //Implement your code here
+	public double findPrice(int itemId) {
+		switch(itemId) {
+		case 1001:
+			return 25;
+		case 1002:
+			return 20;
+		case 1003:
+			return 23;
+		case 1004:
+			return 18;
+		default:
+			return 0;
+		}
+	
+	}
+	public double findPrice(String brandName,String itemType,int size) {
+		double b=0;
+		switch(brandName) {
+		case "Puma":
+			switch(itemType) {
+			case "T-shirt":
+				if(size==34||size==36) {
+					b=25;
+					
+				}
+				else {
+					b=0;
+					
+				}
+				break;
+			case"Skirt"	:
+				if(size==38||size==40) {
+					b=20;
+					
+				}
+				else {
+					b=0;
+					
+				}
+				break;
+				
+			}
+			break;
+		case "Reebok":
+			switch(itemType) {
+			case "T-shirt":
+				if(size==34||size==36) {
+					b=23;
+					
+				}
+				else {
+					b=0;
+					
+				}
+				break;
+			case"Skirt"	:
+				if(size==38||size==40) {
+					b=18;
+					
+				}
+				else {
+					b=0;
+					
+				}
+				break;
+			
+			
+		}
+		
+}
+		return b;
+}
+}
+
+
+
+```
+
 
 
