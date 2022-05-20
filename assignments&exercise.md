@@ -89,7 +89,43 @@ public class Tester {
 
 
 ```
-
+# LCM
+```java
+public class Tester {
+	private static int num;
+	int g;
+	public static void main(String[] args) {
+		int x=7,y=9,lcm;
+		lcm=(x>y)?x:y;
+			while(true) {
+				if(lcm%x==0&&lcm%y==0) {
+					System.out.println("lcm is "+lcm);
+					break;
+				}
+				lcm++;
+		}
+	}
+}
+```
+# CHICKEN AND RABBIT
+```java
+public class Tester {
+	public static void main(String[]args) {
+	int heads=150,legs=500;
+	int r=0,c=0;
+	if((heads>legs)||(heads==0)||(legs%2!=0))
+	{
+	System.out.println("Thenumberofchickensandrabbitscannotbefound");
+	}
+	else{
+	r=((legs-(2*heads))/2);
+	c=(heads-r);
+	System.out.println("Chickens="+c);
+	System.out.println("Rabbits="+r);
+	}
+	}
+}
+```
 ![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
 ```java
 class Tester{
