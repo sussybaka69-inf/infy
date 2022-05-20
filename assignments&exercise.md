@@ -63,7 +63,32 @@ else {
 
 
 ```
+# Luck Number
+```java
+public class Tester {
+	private static int num;
+	int g;
+	public static void main(String[] args) {
+		int x=15,temp=0,rev=0,k=0;
+		String s=""+x;
+		for(int i=0;i<s.length();i++) {
+			if(i%2!=0) {
+				k+=Math.pow(Character.getNumericValue(s.charAt(i)),2) ;
+			}
+			
+			
+		}
+		if(k%9==0) {
+			System.out.println("the number "+x+" is a lucky number");
+		}
+		else {
+			System.out.println("the number "+x+" is  not a lucky number");
+		}
+	}
+}
 
+
+```
 
 ![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
 ```java
