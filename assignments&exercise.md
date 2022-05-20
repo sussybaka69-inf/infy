@@ -177,6 +177,18 @@ class Tester {
 		System.out.println("Sum of digits are : " + sumOfDigits);
 	}
 }
+
+
+########################################ARNOLDS NUMBER
+	int x=1635,temp=0,rev=0;
+		String s=""+x;
+		while(x>0) {
+			
+			temp=x%10;
+			rev+=Math.pow(temp, s.length());
+			x=x/10;
+		}
+	System.out.println(rev);
 ````
 ![Capture](https://user-images.githubusercontent.com/105406807/168430076-cf556511-c17a-4e6d-bc12-ebd9d25d83ff.PNG)
 
