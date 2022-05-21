@@ -126,6 +126,42 @@ public class Tester {
 	}
 }
 ```
+# MAX NO OF CHAR
+```JAVA
+class Tester {
+
+	public static int findHighestOccurrence(String str){
+		//Implement your code here and change the return value accordingly
+			
+		int c=0,cmax=1;
+		for(int i=0;i<str.length();i++) {
+			for(int j=0;j<str.length();j++) {
+				if(str.charAt(i)==str.charAt(j)) {
+					c++;
+				
+					
+					}
+				
+				if(c>cmax) {
+					cmax=c;
+				
+				}
+				
+			
+			}
+			c=0;
+		}
+      return cmax;
+	
+	}
+  
+	
+	public static void main(String args[]){
+	    String str = "success";
+	    System.out.println(findHighestOccurrence(str));
+	}
+}
+```
 ![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
 ```java
 class Tester{
