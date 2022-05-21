@@ -162,6 +162,54 @@ class Tester {
 	}
 }
 ```
+# STORING OBJECTS IN A ARRAY
+```java
+class Teacher {
+    //Implement your code here
+	private String teacherNameString;
+	private String subjectString;
+	private double salary;
+	public Teacher(String teacherNameString, String subjectString, double salary) {
+		this.teacherNameString = teacherNameString;
+		this.subjectString = subjectString;
+		this.salary = salary;
+	}
+	public String getTeacherNameString() {
+		return teacherNameString;
+	}
+	public void setTeacherNameString(String teacherNameString) {
+		this.teacherNameString = teacherNameString;
+	}
+	public String getSubjectString() {
+		return subjectString;
+	}
+	public void setSubjectString(String subjectString) {
+		this.subjectString = subjectString;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	
+}
+
+
+class Tester {
+	public static void main(String[] args) {
+	    // Implement your code here 
+		Teacher t1=new Teacher("Alex","JAva",1200l);
+		Teacher t2=new Teacher("Jhon","rdbms",800l);
+		Teacher t3=new Teacher("Sam","Networking",900l);
+		Teacher t4=new Teacher("Maria","Python",900l);
+		Teacher []teacherArr= {t1,t2,t3,t4};
+		for(Teacher t:teacherArr) {
+			System.out.println("Name :"+t.getTeacherNameString()+", Subject:"+t.getSubjectString()+", Salary:"+t.getSalary());
+		}
+	}
+}
+```
 ![Capture](https://user-images.githubusercontent.com/105406807/168269630-b9ec96db-f007-4330-81e2-ce7e3d52780b.PNG)
 ```java
 class Tester{
