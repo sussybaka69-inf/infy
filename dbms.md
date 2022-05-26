@@ -28,3 +28,16 @@ BillDate DATE,
 Quantity NUMBER(4) default 1 constraint gg  check(Quantity>0));
 
 ```
+<img width="694" alt="Capture" src="https://user-images.githubusercontent.com/105406807/170537167-359910f0-16f8-42c9-a3b1-dd12c43e94e4.PNG">
+```sql
+select EmpId,EmpName,Salary,
+case Designation 
+when 'Administrator' then Salary*1.1
+when 'Billing Staff' then Salary*1.2
+when 'Manager' then Salary*1.05
+when 'Security' then Salary*1.25
+else Salary*1.02
+end 	INCREASEDSALARY
+from Empdetails
+
+```
